@@ -1,0 +1,27 @@
+.box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px 150px;
+}
+
+.box>.card{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 5px 3px 5px 3px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.box>.card>img{
+    border-radius: 9999px;
+    width: 100px;
+    height: 100px;
+}
+
+.box>.card>.info{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    justify-content: center;
+}

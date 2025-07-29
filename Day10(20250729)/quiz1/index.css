@@ -1,0 +1,30 @@
+.box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+}
+
+.card>img{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card>.info{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.card>.info>.brand{
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.card>.info>.name{
+    font-size: 13px;
+}
