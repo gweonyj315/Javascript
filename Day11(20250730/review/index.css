@@ -1,0 +1,49 @@
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+section>.item{
+    border: 0.5px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 5px 3px;
+    width: 400px;
+    height: 200px;
+}
+
+section>.item>img{
+    border-radius: 3px;
+    object-fit: cover;
+    width: 180px;
+    height: 180px;
+}
+
+section>.item>.info{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    justify-content: center;
+    color: gray;
+    font-size: 13px;
+}
+
+section>.item>.info>.price{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+section>.item>.info>.shape{
+    padding: 2px 0px;
+}
+
+section>.item>.info>.plus{
+    border: 1px solid rgb(180, 141, 202);
+    color: rgb(180, 141, 202);
+    padding: 1px 1px;
+    width: 50px;
+}

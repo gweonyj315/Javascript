@@ -1,0 +1,56 @@
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section>.goods{
+    border: 1px solid black;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+section>.goods>.good{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 3px;
+    border: 1px solid black;
+}
+
+section>.goods>.good>.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section>.goods>.good>.info>.count{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+section>.total{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+section>.total>.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section>.total>.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
+section>.total>button{
+    width: 50px;
+    height: 15px;
+    border: 1px solid black;
+}
