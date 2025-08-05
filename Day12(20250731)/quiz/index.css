@@ -1,0 +1,45 @@
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.words {
+    font-weight: bold;
+    font-size: large;
+}
+
+.id {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 10px;
+}
+
+.id>.idInput {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.id>.idInput>button {
+    border: 0px;
+    border-radius: 10px;
+    background-color: rgb(212, 212, 212);
+    color: gray;
+    font-size: 10px;
+    padding: 3px 7px;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.password>.check {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 10px;
+}
